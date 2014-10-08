@@ -1,4 +1,12 @@
+html{
+	padding: 0;
+	margin: 0;
+}
+
 body{
+	overflow-y: hidden;
+	padding: 0;
+	margin: 0;
 	background: lightgray;
 	color: white;
 	font-size: 2em;
@@ -7,12 +15,14 @@ body{
 
 #div1 {
 	position: relative;
-	width: 300px;
-	padding: 10px;
+	#width: 300px;
+	padding: 0;
+	padding-top: 10%;
+	padding-bottom: 130%;
 	margin: 0 auto;
 	color: white;
 	background: teal;
-	font-size: 2rem;
-	border: 3px solid white;
-	border-radius: 10px;
+	font-size: 1.75rem;
+	#border: 3px solid white;
+	#border-radius: 10px;
 }
